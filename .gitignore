@@ -1,6 +1,5 @@
 bin/classes.dex
-bin/classes/*
-bin/res/*
+bin/classes/
+bin/res/
 bin/resources.ap_
-gen/*
-
+gen/
