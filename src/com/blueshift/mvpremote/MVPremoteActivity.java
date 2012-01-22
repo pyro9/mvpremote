@@ -179,12 +179,12 @@ public class MVPremoteActivity extends Activity {
     	case R.id.bMenu:
     		val = 13;
     		break;
-//    	case R.id.:
-//    		val = 30;
-//    		break;
-//    	case R.id.bReplay:
-//    		val = 36;
-//    		break;
+    	case R.id.Skip:
+    		val = 30;
+    		break;
+    	case R.id.Replay:
+    		val = 36;
+    		break;
     	}
     	
     	b[1] = (byte) val;
