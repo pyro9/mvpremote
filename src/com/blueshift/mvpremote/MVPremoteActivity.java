@@ -1,5 +1,10 @@
 package com.blueshift.mvpremote;
 
+// Copyright 2012 Steven James <pyro@linuxlabs.com>
+// This is Free Software released under the Gnu General Public License version 2 
+// (see COPYING)
+// use at your own risk. No warranty of any kind.
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
