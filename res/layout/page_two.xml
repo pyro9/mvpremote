@@ -7,7 +7,8 @@
     <TableRow
         android:id="@+id/tableRow1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
         <Button
             android:id="@+id/b1"
@@ -40,7 +41,8 @@
     <TableRow
         android:id="@+id/tableRow2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
         <Button
             android:id="@+id/b4"
@@ -73,7 +75,8 @@
     <TableRow
         android:id="@+id/tableRow4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
         <Button
             android:id="@+id/b7"
@@ -106,7 +109,8 @@
     <TableRow
         android:id="@+id/tableRow5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
         <Button
             android:id="@+id/b0"
@@ -122,25 +126,30 @@
         android:id="@+id/tableRow6"
         android:layout_width="wrap_content"
         android:layout_height="10dp"
-        android:layout_weight="2" >
+        android:layout_weight="1" >
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRowAbout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-        
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
         <Button
-			android:id="@+id/textViewAbout"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Copyright 2012 Steven James &lt;pyro@linuxlabs.com&gt; http://www.linuxlabs.com"
-			android:onClick="onAbout" />
+            android:id="@+id/bAbout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onAbout"
+            android:text="Copyright 2012\nSteven James &lt;pyro@linuxlabs.com&gt;\nwww.linuxlabs.com" />
+
     </TableRow>
+
     <TableRow
         android:id="@+id/tableRow3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
         <TextView
             android:id="@+id/textView1"
@@ -151,8 +160,9 @@
 
         <EditText
             android:id="@+id/hostName"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
     </TableRow>
+
 </TableLayout>
