@@ -240,7 +240,7 @@ public class MVPremoteActivity extends Activity {
     }
 
     public void onAbout(View v) {
-    	String url = "http://www.linuxlabs.com/";
+    	String url = "http://www.blueshiftwireless.com/MVPremote";
     	Intent i = new Intent(Intent.ACTION_VIEW);
     	i.setData(Uri.parse(url));
     	startActivity(i);
