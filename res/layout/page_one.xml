@@ -193,7 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onButtonPressed"
-            android:text=">" >
+            android:text="&gt;" >
         </Button>
 
         <Button
@@ -202,7 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onButtonPressed"
-            android:text=">>" >
+            android:text="&gt;&gt;" >
         </Button>
     </TableRow>
 

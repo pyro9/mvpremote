@@ -126,6 +126,18 @@
     </TableRow>
 
     <TableRow
+        android:id="@+id/tableRowAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <Button
+			android:id="@+id/textViewAbout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Copyright 2012 Steven James &lt;pyro@linuxlabs.com&gt; http://www.linuxlabs.com"
+			android:onClick="onAbout" />
+    </TableRow>
+    <TableRow
         android:id="@+id/tableRow3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
