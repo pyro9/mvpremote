@@ -5,7 +5,7 @@ An Android app remote control for mvpmc on the MediaMVP.
 This is Free software licensed under the GNU General Public License (GPL) version 2 
 (see the COPYING file).
 
-android-support-v4.jar is copyright Google available under thei SDK license.
+android-support-v4.jar is copyright Google available under their SDK license.
 
 USE:
 Swipe to the second page and enter the hostname or IP address of your MediaMVP in the edit box.
