@@ -109,7 +109,7 @@
             android:layout_weight="1"
             android:background="#0000FF"
             android:onClick="onButtonPressed"
-            android:text="Back" >
+            android:text="Blue" >
         </Button>
     </TableRow>
 
